@@ -1,0 +1,210 @@
+ /*Font Styles*/
+
+ @font-face {
+    font-family: 'Ruthie';
+    src: url('https://fonts.googleapis.com/css?family=Ruthie');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ /*Heading Styles*/
+
+ header {
+     padding: 20px;
+     margin: 10px;
+     font-family: 'Ruthie', cursive;
+     color: #1D0413;
+     line-height: 100%;
+     font-size: 50px;
+     text-align: center;
+     text-shadow: 2px 2px 7px #1D0413;
+     border: 3px solid #1D0413;
+     background-color: rgba(231,123,189,0.5);
+     box-shadow: 5px 5px 3px #1D0413;
+     border-radius: 20px;
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcecfc+0,fd89d7+26,fd89d7+26,fba6e1+50,ff7cd8+100&amp;1+0,0.5+100 */
+     background: -moz-radial-gradient(center, ellipse cover,  rgba(252,236,252,1) 0%, rgba(253,137,215,0.87) 26%, rgba(251,166,225,0.75) 50%, rgba(255,124,216,0.5) 100%); /* FF3.6-15 */
+     background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,236,252,1) 0%,rgba(253,137,215,0.87) 26%,rgba(251,166,225,0.75) 50%,rgba(255,124,216,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+     background: radial-gradient(ellipse at center,  rgba(252,236,252,1) 0%,rgba(253,137,215,0.87) 26%,rgba(251,166,225,0.75) 50%,rgba(255,124,216,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#80ff7cd8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+ }
+
+ /*Navigation*/
+
+ nav{
+     font-family: 'Ruthie', cursive;
+     font-size: 15px;
+     margin: auto;
+     width: 400px;
+     padding: 10px;
+     text-align: center;
+ }
+
+ #pages {
+     list-style: none;
+ }
+
+ a {
+     margin-right: 20px;
+     width: 100%;
+     text-decoration: none;
+ }
+
+ a.link {
+     color: #1D0413;
+     text-decoration: none;
+ }
+
+ a.visited {
+     color: #80005A;
+ }
+
+ a.hover {
+     color: #8E44BA;
+     text-decoration: wavy;
+ }
+
+ a.active {
+     color: #4285B4;
+ }
+
+ /*Main Body*/
+
+
+ div.header {
+     width: 100%;
+ }
+
+ div.Main {
+     width: 48%;
+     float: left;
+     margin: 1%;
+ }
+
+ div.photos {
+     width: 38%;
+     float: left;
+     margin: 1%;
+ }
+
+
+ h1 {
+     font-family: 'Ruthie', cursive;
+     line-height: 100%;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px auto;
+     width: 50%;
+     border: dotted #1D0413 3px;
+     text-align: center;
+     background-color: #694DB3;
+ }
+
+ h2 {
+     padding: 20px;
+     margin: 10px auto;
+     font-family: 'Ruthie', cursive;
+     line-height: 100%;
+     width: 50%;
+     border: dotted #1D0413 3px;
+     border-radius: 10px;
+     text-align: center;
+     background-color: #694DB3;
+     background-image: url("../images/child2.png");
+     background-repeat: no-repeat;
+ }
+
+ h3 {
+     padding: 20px;
+     width: 50%;
+     margin: 10px auto;
+     font-family: 'Ruthie', cursive;
+     line-height: 100%;
+     text-align: center;
+     border: dotted #1D0413 3px;
+     border-radius: 10px;
+     background-color: #694DB3;
+     background-image: url("../images/camera.png");
+     background-repeat: no-repeat;
+ }
+
+ body {
+     font-family: 'arial', sans-serif;
+     background-image: url("../images/background.gif");
+     background-repeat: repeat;
+
+ }
+
+ p {
+     color: #1D0413;
+     background-color: rgba(231,123,189,0.5);
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px auto;
+     width: 50%;
+     box-shadow: 5px 5px 3px #1D0413;
+ }
+ em {
+     color: #00406D;
+ }
+
+ li {
+     list-style-position: inside;
+     text-align: center;
+     background-color: #4285B4;
+     color: #1D0413;
+     width: 75%;
+     border-radius: 10px;
+     margin: 5px auto;
+ }
+
+ blockquote {
+     font-family: 'Ruthie', cursive;
+     font-size: 15px;
+     line-height: 100%;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px auto;
+     width: 50%;
+     border: dotted #1D0413 3px;
+     text-align: center;
+     background-color: rgba(231,123,189,0.5);
+
+ }
+
+ /*Images*/
+
+ #images {
+     width: 100%;
+     padding: 20px;
+     margin: 10px auto;
+     border: #1D0413 solid 5px;
+     border-radius: 10px;
+     background-color: rgba(231,123,189,0.5);
+ }
+
+ figure {
+     width: 100%;
+     margin: 10px auto;
+ }
+
+ /*footer*/
+
+ footer {
+     padding: 20px;
+     margin: 10px;
+     font-family: 'Ruthie', cursive;
+     color: #1D0413;
+     line-height: 100%;
+     font-size: 50px;
+     text-align: center;
+     border: 3px solid #1D0413;
+     background-color: #E77BBD;
+     box-shadow: 5px 5px 3px #1D0413;
+     border-radius: 20px;
+     clear: both;
+ }
+
+
