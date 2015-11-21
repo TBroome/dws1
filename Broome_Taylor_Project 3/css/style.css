@@ -80,13 +80,13 @@
  div.Main {
      width: 48%;
      float: left;
-     margin: 1%;
+     margin: 1% auto;
  }
 
  div.photos {
      width: 38%;
      float: left;
-     margin: 1%;
+     margin: 1% auto;
  }
 
 
@@ -174,6 +174,64 @@
 
  }
 
+ table {
+     display: table;
+     border-collapse: separate;
+     border-spacing: 5px;
+     border-radius: 10px;
+     color: #1D0413;
+     background-color: #E77BBD;
+     border: solid 1px #1D0413;
+     white-space: normal;
+     line-height: normal;
+     font-weight: 100;
+     font-size: large;
+     font-variant: normal;
+     font-style: italic;
+     margin: 5px auto;
+     Padding: 10px;
+     width:48%;
+     text-transform: uppercase;
+     text-align: center;
+
+ }
+
+ tr {
+     margin: 10px auto;
+     padding: 10px;
+     width: 48%;
+     border-radius: 10px;
+     border: solid 1px #1D0413;
+ }
+
+ .even {
+     background-color: #4285B4;
+ }
+
+ tr:hover {
+     background-color: #694DB3;
+ }
+
+ tr:focus {
+     background-color: aqua;
+ }
+
+ thead {
+     margin: 10px auto;
+     padding: 10px;
+     width: 48%;
+     border-radius: 10px;
+     border: solid 1px #1D0413;
+ }
+
+ th, td {
+     padding: 5px 10px;
+ }
+
+ td, th {
+     display: table-cell;
+     vertical-align: inherit;
+ }
  /*Images*/
 
  #images {
@@ -190,6 +248,31 @@
      margin: 10px auto;
  }
 
+ form{
+     font-family: 'Ruthie', cursive;
+     font-size: 15px;
+     line-height: 100%;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px auto;
+     width: 60%;
+     border: dotted #1D0413 3px;
+     text-align: center;
+     background-color: rgba(231,123,189,0.5);
+ }
+ label{
+     width: 50%;
+     margin: 10px auto;
+     padding: 10px;
+ }
+
+ input:hover {
+     background-color: #694DB3;
+ }
+
+ input:focus {
+     background-color: aqua;
+ }
  /*footer*/
 
  footer {
